@@ -37,7 +37,7 @@ DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Manoharasai:Manoharasa
 DATABASE_NAME = environ.get('DATABASE_NAME', "manoharfiles")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002092756498'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TBAdminBot')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TBAdminBot') 
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
